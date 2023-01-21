@@ -70,15 +70,44 @@ section h2,
 }
 
 .articles article a {
-    background-color: rgba(196, 196, 221, 0.26);
-    
+    background-color: rgba(17, 58, 9, 0.26);
+    color: rgb(12, 82, 12);
     padding: 4px;
     display: inline-block;
     text-decoration: none;
 }
+.articles article a:hover {
+    background-color: rgba(33, 109, 18, 0.26);
+}
+
+#economy a {
+    background-color: rgba(182, 182, 6, 0.26);
+    color: rgb(168, 145, 12);
+}
+
+#economy a:hover {
+    background-color: rgba(219, 219, 7, 0.26);
+}
+
+#entertainment a {
+    background-color: rgba(101, 101, 255, 0.349);
+    color: rgb(35, 35, 177);
+}
+
+#entertainment a:hover {
+    background-color: rgba(155, 155, 248, 0.349);
+}
+
+#technology a {
+    background-color: rgb(245, 100, 100);
+    color: rgb(141, 31, 31);
+}
+
+#technology a:hover {
+    background-color: rgb(247, 166, 166);
+}
 
 .articles article a {
-    text-decoration: underline;
     font-weight: bold;
     margin-top: 4px;
 }
